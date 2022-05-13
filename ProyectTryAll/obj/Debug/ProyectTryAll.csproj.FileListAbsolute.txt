@@ -1,0 +1,11 @@
+C:\Users\memot\source\repos\ProyectTryAll\bin\Debug\ProyectTryAll.exe.config
+C:\Users\memot\source\repos\ProyectTryAll\bin\Debug\ProyectTryAll.exe
+C:\Users\memot\source\repos\ProyectTryAll\bin\Debug\ProyectTryAll.pdb
+C:\Users\memot\source\repos\ProyectTryAll\obj\Debug\ProyectTryAll.csproj.AssemblyReference.cache
+C:\Users\memot\source\repos\ProyectTryAll\obj\Debug\ProyectTryAll.csproj.SuggestedBindingRedirects.cache
+C:\Users\memot\source\repos\ProyectTryAll\obj\Debug\ProyectTryAll.Main.resources
+C:\Users\memot\source\repos\ProyectTryAll\obj\Debug\ProyectTryAll.Properties.Resources.resources
+C:\Users\memot\source\repos\ProyectTryAll\obj\Debug\ProyectTryAll.csproj.GenerateResource.cache
+C:\Users\memot\source\repos\ProyectTryAll\obj\Debug\ProyectTryAll.csproj.CoreCompileInputs.cache
+C:\Users\memot\source\repos\ProyectTryAll\obj\Debug\ProyectTryAll.exe
+C:\Users\memot\source\repos\ProyectTryAll\obj\Debug\ProyectTryAll.pdb
