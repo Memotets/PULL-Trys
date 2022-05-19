@@ -17,15 +17,15 @@ namespace ProyectTryAll
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Form1_KeyDown(object sender, System.Windows.Forms.KeyEventArgs e)
         {
-
+            if ((e.KeyCode == Keys.F4) || e.Alt || e.Control || e.Shift || e.KeyCode == Keys.Tab)
+            {
+                Alerta frm = new Alerta();
+                frm.ShowDialog(this);
+            }
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void PanelLogin_Paint(object sender, PaintEventArgs e)
         {
@@ -42,6 +42,15 @@ namespace ProyectTryAll
         {
             //si se desea cerrar una subventana usar System.Windows.Forms.Application.ExitThread() o this.exit();
             System.Windows.Forms.Application.Exit();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //open new form
+            permisos permisos = new permisos();
+            this.Hide();
+            permisos.Show(this);
+
         }
     }
 }
