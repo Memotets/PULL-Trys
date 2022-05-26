@@ -8,15 +8,33 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace ProyectTryAll
 {
     public partial class Main : Form
     {
+        private KeyboardFilter kbFilter;
+
         public Main()
         {
+            desactivaKeys();
             InitializeComponent();
         }
-
+        public void desactivaKeys()
+        {
+            /* Activar filtro de telado */
+            kbFilter = new KeyboardFilter(new Keys[]
+            {
+                Keys.LWin | Keys.D,
+                Keys.RWin | Keys.D,
+                Keys.LWin | Keys.X,
+                Keys.RWin | Keys.X,
+                Keys.Alt  | Keys.F4,
+                Keys.Alt  | Keys.Tab,
+                Keys.Alt  | Keys.Escape,
+                Keys.Control | Keys.Escape
+            });
+        }
         private void Form1_KeyDown(object sender, System.Windows.Forms.KeyEventArgs e)
         {
             if ((e.KeyCode == Keys.F4) || e.Alt || e.Control || e.Shift || e.KeyCode == Keys.Tab)

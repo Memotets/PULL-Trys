@@ -14,7 +14,11 @@ namespace ProyectTryAll
         {
             this.Owner.Show();
             this.Close();
-            
+        }
+
+        private void permisos_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            this.Owner.Show();
         }
     }
 }
